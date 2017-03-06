@@ -1,0 +1,271 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+body{
+	background-color: black;
+	margin:auto;
+}
+
+.graylink{
+	color: #CBD4DB;
+}
+.container{
+	margin:auto;
+	width: 1300px; 
+	background-color: white; 
+}
+
+.header{
+	 display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(images/manhatten1-2.jpg);
+    background-size: 1311px 555px;
+    background-repeat: no-repeat;
+    background-position-x: -8px;
+    background-color: #777;
+    width: 100%;
+    height: 500px;
+    color: white;
+
+}
+
+.titlelogo{
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	width: auto; 
+	margin-right: 300px; 
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 200px;
+}
+
+.logo img{
+	width: 100px;
+    height: 100px;
+}
+
+ul.logo{
+	list-style: none;
+    width: auto;
+    margin-left: 21px;
+}
+
+.logo li:nth-child(2){
+	margin-top: 55px;
+    font-size: 25px;
+    
+}
+
+ul.logo>li{
+	margin-left: 13px;
+}
+
+.topnav{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: auto;
+    color: white;
+    margin-left: 250px;
+    margin-top:55px;
+}
+
+ul.navlinks{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+.topnav ul>li>img{
+	width: 14px;
+    height: 13px;
+    margin-left: 3px;
+
+}
+
+.topnav ul>li{
+	margin-right: 20px;
+	height: 22px;
+	border-bottom: 3px solid white;
+}
+
+.title{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; 
+    margin-left: 205px;
+
+}
+.title h1{
+     width: 100%;
+    font-size: 81px;
+    margin-top: 27px;
+    margin-left: 45px;
+    height: 0px;
+
+}
+
+.title p{
+	margin-top: -10px; 
+}
+
+.titlelowers{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 12px;
+    margin-top: -72px;
+
+}
+
+.titlelowers p{
+	margin-left: 2px;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+.maincontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin:auto;
+	width: 1300px; 
+	background-color: white; 
+}
+
+.main{
+	 display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 41%;
+    padding: 0;
+    margin-left: 172px;
+    
+}
+
+.mainheader{
+	height: 200px; 
+}
+.main h1{
+	font-size: 40px;
+    color: #083452;
+    text-transform: uppercase;
+    margin-top: 52px;
+}
+
+.authdate{
+	display: flex;
+	flex-wrap: wrap; 
+	flex-direction: row; 
+}
+
+.authdate>p, img{
+	height: 30px;
+    width: 30px;
+    margin-top: -6px;
+    border-radius: 50%; 
+}
+
+.authdate p:nth-child(2){ 
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -4px;
+    margin-left: 6px;
+    width: auto;
+}
+
+.aside{
+    width: 25%;
+    margin-left: 86px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.maintop p{
+	color: gray; 
+}
+
+.maintop p:nth-child(2){
+	margin-top: 15px;
+}
+
+.quote{
+	width: 100px; 
+}
+.quote h2{
+	font-size: 28px;
+    font-weight: normal;
+    color: #478CC1;
+    border-left: 1px solid  #478CC1; 
+    width: 400px;
+}
+
+.quote p{
+	border-left: 2px solid gray; 
+}
+
+.mainbottom p{
+    color: gray; 
+}
+
+.mainsocial{
+    display: flex;
+    flex-direction: row; 
+    margin-left: -63px; 
+}
+.mainsocial ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: auto;  
+}
+.mainsocial>ul>li>img{
+    margin-left: 15px; 
+    background: gray;
+}
+
+.aside{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+}
+
+.authorimage{
+    background-image: url(images/waveimage.jpeg);
+    width: 20px;
+    height: 20px;
+    height: 100p;
+    margin-height: 30px;
+    margin-top: 170px;
+    border-radius: 50%;
+}
+.surferimage{
+    background-image: url(images/tumblr_static_flat_550x550_075_f.jpg);
+    background-repeat: no-repeat;
+    margin-top: 220px;
+    background-position-x: -135px;
+    background-position-y: 43px;
+    background-repeat-y: 10px;
+    background-repeat-y: 2px;
+    width: 300px;
+    height: 350px;     
+}
