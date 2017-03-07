@@ -250,6 +250,8 @@ ul.navlinks{
 }
 
 .authorimage{
+    display: flex; 
+
     background-image: url(images/waveimage.jpeg);
     width: 20px;
     height: 20px;
