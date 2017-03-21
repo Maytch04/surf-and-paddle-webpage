@@ -13,7 +13,7 @@ body{
 }
 
 .graylink{
-	color: #CBD4DB;
+	color: #4f4949;
 }
 .container{
 	margin:auto;
@@ -223,7 +223,7 @@ ul.navlinks{
 	border-left: 2px solid gray; 
 }
 
-.mainbottom p{
+.botpar p{
     color: gray; 
 }
 
@@ -238,8 +238,12 @@ ul.navlinks{
     list-style: none;
     width: auto;  
 }
+
+.mainsocial>ul>li{
+    background: #A3B3BF; 
+}
 .mainsocial>ul>li>img{
-    margin-left: 15px; 
+    margin-left: 89px;
     background: gray;
 }
 
